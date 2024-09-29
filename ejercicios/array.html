@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meses del Año</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Meses del Año</h1>
+        <div id="mes" class="mt-3 p-3 border rounded bg-light"></div>
+        <a href="../index.html" class="btn btn-primary mt-3">Volver al Index</a>
+    </div>
+
+    <script>
+        const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+        document.getElementById('mes').innerText = `El sexto mes del año es: ${meses[5]}`;
+    </script>
+</body>
+</html>
